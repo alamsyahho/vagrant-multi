@@ -1,0 +1,14 @@
+---
+- name: puppet
+  primary: true
+  hostname: puppet.localdev.com
+  aliases: puppet.nets.com.sg puppet
+  ip: 172.17.8.50
+  enable_sync_folder: true
+  memory: 4096
+  cpus: 2
+
+- name: kube-master
+  hostname: kube-master.nets.com.sg
+  aliases: kube-master.nets.com.sg
+  ip: 172.17.8.100
